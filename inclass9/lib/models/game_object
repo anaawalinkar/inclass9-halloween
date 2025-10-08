@@ -1,0 +1,15 @@
+class GameObject {
+  final String type; 
+  final Offset position;
+  final bool isCorrect;
+  final bool isTrap;
+  final AnimationController controller;
+  
+  GameObject({
+    required this.type,
+    required this.position,
+    required this.isCorrect,
+    required this.isTrap,
+    required this.controller,
+  });
+}
